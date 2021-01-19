@@ -1,0 +1,172 @@
+[debug] [2021-01-04T07:11:10.979Z] ----------------------------------------------------------------------
+[debug] [2021-01-04T07:11:10.981Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-01-04T07:11:10.981Z] CLI Version:   9.1.0
+[debug] [2021-01-04T07:11:10.981Z] Platform:      win32
+[debug] [2021-01-04T07:11:10.981Z] Node Version:  v14.15.0
+[debug] [2021-01-04T07:11:10.982Z] Time:          Mon Jan 04 2021 09:11:10 GMT+0200 (Eastern European Standard Time)
+[debug] [2021-01-04T07:11:10.982Z] ----------------------------------------------------------------------
+[debug] [2021-01-04T07:11:10.982Z] 
+[debug] [2021-01-04T07:11:10.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-04T07:11:10.989Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2021-01-04T07:11:11.010Z] [hub] writing locator at C:\Users\Admin\AppData\Local\Temp\hub-my-shop-bac8d.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub\u001b[22m"}}
+[warn] !  Your requested "node" version "12" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"14\""}}
+[debug] [2021-01-04T07:11:11.039Z] defaultcredentials: writing to file C:\Users\Admin\AppData\Roaming\firebase\ausandreas_gmail_com_application_default_credentials.json
+[debug] [2021-01-04T07:11:11.041Z] Setting GAC to C:\Users\Admin\AppData\Roaming\firebase\ausandreas_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Admin\\AppData\\Roaming\\firebase\\ausandreas_gmail_com_application_default_credentials.json"}}
+[debug] [2021-01-04T07:11:11.050Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-01-04T07:11:11.050Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-01-04T07:11:11.050Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Admin\\.cache\\firebase\\emulators\\ui-v1.4.1\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Admin\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.4.1\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-01-04T07:11:11.151Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\Admin\Desktop\Projects\React Practice\Clever Programmer - Amazon\my-shop\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\" for Cloud Functions..."}}
+[debug] [2021-01-04T07:11:11.331Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2021-01-04T07:11:11.331Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2021-01-04T07:11:11.331Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2021-01-04T07:11:11.331Z] [worker-~diagnostic~-a0981a33-2cbf-4315-958f-8dba215cb696]: Assigning socketPath: \\?\pipe\C:\Users\Admin\Desktop\Projects\React Practice\Clever Programmer - Amazon\my-shop\functions\17856 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-a0981a33-2cbf-4315-958f-8dba215cb696]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\17856"}}
+[debug] [2021-01-04T07:11:11.332Z] [worker-~diagnostic~-a0981a33-2cbf-4315-958f-8dba215cb696]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-a0981a33-2cbf-4315-958f-8dba215cb696]: BUSY"}}
+[debug] [2021-01-04T07:11:11.494Z] [runtime-status] [17856] Functions runtime initialized. {"cwd":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions","node_version":"14.15.0"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\",\"node_version\":\"14.15.0\"}"}}
+[debug] [2021-01-04T07:11:11.495Z] [runtime-status] [17856] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Disabled runtime features: undefined"}}
+[debug] [2021-01-04T07:11:11.499Z] [runtime-status] [17856] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.4.2\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2021-01-04T07:11:11.502Z] [runtime-status] [17856] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.0\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2021-01-04T07:11:11.503Z] [runtime-status] [17856] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.0\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2021-01-04T07:11:11.504Z] [runtime-status] [17856] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2021-01-04T07:11:11.505Z] [runtime-status] [17856] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.0\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2021-01-04T07:11:11.565Z] [runtime-status] [17856] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Checked functions.config() {\"config\":{}}"}}
+[debug] [2021-01-04T07:11:11.565Z] [runtime-status] [17856] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.0","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.13.0\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2021-01-04T07:11:11.565Z] [runtime-status] [17856] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.0\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2021-01-04T07:11:11.566Z] [runtime-status] [17856] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.4.2\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2021-01-04T07:11:11.567Z] [runtime-status] [17856] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.13.0\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2021-01-04T07:11:11.567Z] [runtime-status] [17856] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.4.2","resolution":"C:\\Users\\Admin\\Desktop\\Projects\\React Practice\\Clever Programmer - Amazon\\my-shop\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17856] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.4.2\",\"resolution\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\Projects\\\\React Practice\\\\Clever Programmer - Amazon\\\\my-shop\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[info] +  functions[api]: http function initialized (http://localhost:5001/my-shop-bac8d/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/my-shop-bac8d/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2021-01-04T07:11:11.807Z] [worker-~diagnostic~-a0981a33-2cbf-4315-958f-8dba215cb696]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-a0981a33-2cbf-4315-958f-8dba215cb696]: IDLE"}}
+[debug] [2021-01-04T08:31:50.086Z] ----------------------------------------------------------------------
+[debug] [2021-01-04T08:31:50.087Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2021-01-04T08:31:50.088Z] CLI Version:   9.1.0
+[debug] [2021-01-04T08:31:50.088Z] Platform:      win32
+[debug] [2021-01-04T08:31:50.088Z] Node Version:  v14.15.0
+[debug] [2021-01-04T08:31:50.088Z] Time:          Mon Jan 04 2021 10:31:50 GMT+0200 (Eastern European Standard Time)
+[debug] [2021-01-04T08:31:50.089Z] ----------------------------------------------------------------------
+[debug] [2021-01-04T08:31:50.089Z] 
+[debug] [2021-01-04T08:31:50.095Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-04T08:31:50.096Z] > authorizing via signed-in user
+[debug] [2021-01-04T08:31:50.096Z] [iam] checking project my-shop-bac8d for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2021-01-04T08:31:50.098Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-04T08:31:50.098Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-04T08:31:50.399Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Mon, 04 Jan 2021 08:31:50 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:31:50.405Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-shop-bac8d:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2021-01-04T08:31:51.215Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:31:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=729","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:31:51.216Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/my-shop-bac8d/serviceAccounts/my-shop-bac8d@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2021-01-04T08:31:52.029Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:31:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'my-shop-bac8d'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] +  functions: Finished running predeploy script. 
+[debug] [2021-01-04T08:31:58.897Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0",
+    "stripe": "^8.129.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[debug] [2021-01-04T08:32:00.250Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/my-shop-bac8d/services/cloudfunctions.googleapis.com  
+ 
+[debug] [2021-01-04T08:32:00.251Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/my-shop-bac8d/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2021-01-04T08:32:00.251Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/my-shop-bac8d/services/cloudbuild.googleapis.com  
+ 
+[debug] [2021-01-04T08:32:01.273Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:01.304Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] +  functions: required API cloudfunctions.googleapis.com is enabled 
+[debug] [2021-01-04T08:32:01.336Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] +  functions: required API cloudbuild.googleapis.com is enabled 
+[debug] [2021-01-04T08:32:01.337Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-shop-bac8d/adminSdkConfig  
+ 
+[debug] [2021-01-04T08:32:01.717Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  functions: preparing functions directory for uploading... 
+[debug] [2021-01-04T08:32:01.718Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/my-shop-bac8d/configs  
+ 
+[debug] [2021-01-04T08:32:02.010Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  functions: packaged functions (37.39 KB) for uploading 
+[debug] [2021-01-04T08:32:02.269Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/my-shop-bac8d/locations/-/functions  
+ 
+[debug] [2021-01-04T08:32:02.973Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:02.975Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/my-shop-bac8d/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2021-01-04T08:32:04.043Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:03 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:04.043Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-a5dc03f3-4ea1-4f3b-9798-75c9cef0e8ab/0653a9c6-e636-4f96-9f5c-4b944eefedc4.zip?GoogleAccessId=service-1071142700539@gcf-admin-robot.iam.gserviceaccount.com&Expires=1609750923&Signature=VaXdgneRTFi20N1LYNxNyPAhJo2DZz1hfNY%2FlqBsXCw%2BgAvcRwcG6KxupMw9u9kabwg4bYQRYTrtHVY%2BYOK%2FXNHfyK8IcOtOSrVylZTxFXV56RLKV1%2FUXo5DsvyJQFwMGMyznknYm4OMyqp18e9%2BF391DklARcu5ZT0x9n0YF1kcp3o3fychLtkC2Lh5NhE21WQ6boFS%2B%2FHvtorRuidxeHur%2FJ0YhwhDuQH4BQo%2B89z3xYV5JbOfqwiBA8vXdaMwotSgPfShMbKhlBECAmAWXxpzsKZTc%2BEat8H8%2FLR7AHYupIP2sJyVXhCt%2B%2FVag55lClLtGeSSJxC2IEJDNRZ6HQ%3D%3D  
+ <request body omitted>
+[debug] [2021-01-04T08:32:04.433Z] <<< HTTP RESPONSE 200 {"x-guploader-uploadid":"ABg5-Uy0Kd32miKeZ-uScu7NtAZLuzcqTbZnugSQx3Rl6uGZelaR9CObp2GTAEsiE-j9scu0gVljCnOSC8E77zbUkdnBxtqKww","etag":"\"aefb4d797fdef6ed4121d58b87c06377\"","x-goog-generation":"1609749124279109","x-goog-metageneration":"1","x-goog-hash":"crc32c=fhKAsw==, md5=rvtNeX/e9u1BIdWLh8Bjdw==","x-goog-stored-content-length":"38288","x-goog-stored-content-encoding":"identity","vary":"Origin","content-length":"0","date":"Mon, 04 Jan 2021 08:32:04 GMT","server":"UploadServer","content-type":"text/html; charset=UTF-8","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  functions: functions folder uploaded successfully 
+[info] i  functions: updating Node.js 12 function api(us-central1)... 
+[debug] [2021-01-04T08:32:04.435Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2021-01-04T08:32:04.436Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/my-shop-bac8d/locations/us-central1/functions/api {"updateMask":"sourceUploadUrl,name,labels,runtime,environmentVariables,httpsTrigger"} 
+ {"sourceUploadUrl":"https://storage.googleapis.com/gcf-upload-us-central1-a5dc03f3-4ea1-4f3b-9798-75c9cef0e8ab/0653a9c6-e636-4f96-9f5c-4b944eefedc4.zip?GoogleAccessId=service-1071142700539@gcf-admin-robot.iam.gserviceaccount.com&Expires=1609750923&Signature=VaXdgneRTFi20N1LYNxNyPAhJo2DZz1hfNY%2FlqBsXCw%2BgAvcRwcG6KxupMw9u9kabwg4bYQRYTrtHVY%2BYOK%2FXNHfyK8IcOtOSrVylZTxFXV56RLKV1%2FUXo5DsvyJQFwMGMyznknYm4OMyqp18e9%2BF391DklARcu5ZT0x9n0YF1kcp3o3fychLtkC2Lh5NhE21WQ6boFS%2B%2FHvtorRuidxeHur%2FJ0YhwhDuQH4BQo%2B89z3xYV5JbOfqwiBA8vXdaMwotSgPfShMbKhlBECAmAWXxpzsKZTc%2BEat8H8%2FLR7AHYupIP2sJyVXhCt%2B%2FVag55lClLtGeSSJxC2IEJDNRZ6HQ%3D%3D","name":"projects/my-shop-bac8d/locations/us-central1/functions/api","labels":{"deployment-tool":"cli-firebase"},"httpsTrigger":{},"runtime":"nodejs12","environmentVariables":{"FIREBASE_CONFIG":"{\"projectId\":\"my-shop-bac8d\",\"storageBucket\":\"my-shop-bac8d.appspot.com\",\"locationId\":\"europe-west\"}"}}
+[debug] [2021-01-04T08:32:05.277Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:05.280Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/my-shop-bac8d/locations/-/functions  
+ 
+[debug] [2021-01-04T08:32:05.981Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:05.981Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bXktc2hvcC1iYWM4ZC91cy1jZW50cmFsMS9hcGkvdndfUy1Va19OVm8  
+ 
+[debug] [2021-01-04T08:32:06.393Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:06 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:08.399Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bXktc2hvcC1iYWM4ZC91cy1jZW50cmFsMS9hcGkvdndfUy1Va19OVm8  
+ 
+[debug] [2021-01-04T08:32:08.653Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:08 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:10.668Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bXktc2hvcC1iYWM4ZC91cy1jZW50cmFsMS9hcGkvdndfUy1Va19OVm8  
+ 
+[debug] [2021-01-04T08:32:11.072Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:13.079Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bXktc2hvcC1iYWM4ZC91cy1jZW50cmFsMS9hcGkvdndfUy1Va19OVm8  
+ 
+[debug] [2021-01-04T08:32:13.500Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:15.513Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bXktc2hvcC1iYWM4ZC91cy1jZW50cmFsMS9hcGkvdndfUy1Va19OVm8  
+ 
+[debug] [2021-01-04T08:32:15.917Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-04T08:32:17.931Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/bXktc2hvcC1iYWM4ZC91cy1jZW50cmFsMS9hcGkvdndfUy1Va19OVm8  
+ 
+[debug] [2021-01-04T08:32:18.341Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 08:32:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
